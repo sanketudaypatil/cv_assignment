@@ -1,0 +1,151 @@
+*{
+   
+    margin:0;
+    padding:0;
+}
+body{
+     height:100%;
+    width:100%;
+    
+}
+
+.bg-container{
+    background-color: palevioletred;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5c0f58;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container{
+   
+    text-align: center;
+}
+.logo{
+    font-size: 45px;
+    color: black;
+}
+.logo-title{
+    font-size: 14px;
+}
+
+
+.discription-container{
+    justify-content: space-between;
+    width: 40%;
+     border-right: 3px solid #090d3b;
+}
+.heading{
+    font-weight: 700;
+    color: #090d3b;
+}
+
+
+
+.profile-container {
+      display: flex;
+      width: 100%;
+      flex-wrap: nowrap;
+      padding-top: 15px;
+}
+
+.logo-card{
+    flex: 0 0 calc(16% - 20px);
+      background-color: transparent;
+      padding: 20px;
+
+}
+    
+.card {
+      flex: 0 0 calc(38% - 20px);
+      background-color: transparent;
+      padding: 20px;
+      border: 0px;
+     
+}
+    
+    
+    
+@media (max-width: 768px) {
+      .card {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+      }
+      .logo-card{
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+      }
+}
+.mob-profile-contaner{
+    min-width: 90%;
+    max-width: 91%;
+}
+
+.work-card{
+    flex: 0 0 calc(75% - 20px);
+      background-color: transparent;
+      padding:0 20px;
+      border: 0px;
+      flex-wrap: wrap;
+
+}
+.small-card{
+    width: 100%;
+}
+.icon-container {
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+.icon {
+    color:black;
+    font-size: 35px;
+}
+
+.intrest{
+    
+    flex: 0 0 calc(78% - 20px);
+    background-color: transparent;
+    padding: 20px;
+    border: 0px;
+    justify-content: space-between;
+       
+  
+
+}
+
+.hover-3 {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-3:hover {
+    --_p: 100%;
+    --_s: .3s;
+  }
+
+.des-head{
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0 auto;
+    cursor: pointer;
+    padding: 0 .1em;
+  }
